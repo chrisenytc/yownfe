@@ -1,0 +1,54 @@
+{
+    "name": "yownfe",
+    "description": "A good and cool slave to make repetitive codes for you",
+    "version": "0.1.0",
+    "homepage": "https://github.com/chrisenytc/yownfe",
+    "author": {
+        "name": "Christopher EnyTC",
+        "email": "chrisenytc@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/chrisenytc/yownfe.git"
+    },
+    "bugs": {
+        "url": "https://github.com/chrisenytc/yownfe/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/chrisenytc/yownfe/blob/master/LICENSE"
+    }],
+    "main": "lib/yownfe",
+    "bin": {
+        "fe": "bin/yownfe.js"
+    },
+    "engines": {
+        "node": ">= 0.12.x",
+		"npm": ">= 2.11.x"
+    },
+    "scripts": {
+        "test": "gulp test"
+    },
+    "dependencies": {
+        "commander": "~2.1.0",
+        "colors": "~0.6.2",
+        "lodash": "~3.10.1",
+        "update-notifier": "~0.1.7"
+    },
+    "devDependencies": {
+        "mocha": "~1.10.0",
+        "chai": "~1.8.0",
+        "gulp": "~3.5.0",
+        "gulp-jshint": "~1.3.4",
+        "gulp-mocha": "~0.4.1",
+        "jshint-stylish": "~0.1.5"
+    },
+    "keywords": [
+        "slave",
+        "worker",
+        "horn",
+		"tool",
+		"cli",
+		"fe"
+    ]
+}

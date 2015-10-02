@@ -1,0 +1,10 @@
+{
+    "name": "YOwnFe",
+    "description": "YOwnFe: A good and cool slave to make repetitive codes for you",
+    "version": "0.1.0",
+    "url": "https://github.com/chrisenytc/yownfe",
+    "options": {
+        "outdir": "./docs",
+        "paths": "./lib"
+    }
+}

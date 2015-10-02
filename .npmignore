@@ -1,0 +1,10 @@
+node_modules
+temp
+*.swp
+.sw*
+*.log
+.idea
+
+
+# don't ignore .npmignore files
+!.npmignore
